@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            CharellkingQu
+tagline:         'Life & Tech'
+description:   'CharellkingQu<br>Life & Tech'
+url:              http://CharellKing.github.io
+
+author:
+  name:           	'CharellkingQu'
+  email:			CharellkingQu@gmail.com
+  github : 		CharellKing
+
+
+sidebar:
+  archives_path:  	/archives.html
+  categories_path : 	/categories.html
+  tags_path : 		/tags.html
+
+paginate:         5
+
+# Custom vars
+# version:          1.0.0
+
+github:
+  repo:           https://github.com/CharellKing
