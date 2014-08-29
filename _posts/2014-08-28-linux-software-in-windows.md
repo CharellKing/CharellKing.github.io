@@ -91,7 +91,7 @@ centos的。我们平常的日常生活是可以用linux替代的；如果你说
 - filezilla
 
 ### notepad++
-- SublimteText2
+- Sublime Text2
 - atom        (github出品，现在安装有点困难)
 
 ### source insight      (中文支持不够好)
