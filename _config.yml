@@ -1,5 +1,6 @@
 # Dependencies
 markdown:         redcarpet
+safe:             false
 pygments:         true
 
 # Permalinks

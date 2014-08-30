@@ -24,7 +24,15 @@
       </div>
     </div>
 
+    <div class="comments">
+      {% if page.comments %}
+      {% include comments.ext %}
+      {% endif %}
+    </div>
+
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+
 
   </body>
 </html>

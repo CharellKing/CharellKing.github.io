@@ -3,6 +3,7 @@ title: 使用gimp制作透明图标
 date: 2014-08-28 19:52 +0800
 layout: post
 permalink: /blog/2014/08/28 make-transparent-icon.html
+comments: true
 categories:
   - 绘画
 tags:

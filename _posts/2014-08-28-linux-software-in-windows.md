@@ -3,6 +3,7 @@ title: linux下的windows软件
 date: 2014-08-28 19:52 +0800
 layout: post
 permalink: /blog/2014/08/28 linux-software-in-windows.html
+comments: true
 categories:
   - linux
 tags:
