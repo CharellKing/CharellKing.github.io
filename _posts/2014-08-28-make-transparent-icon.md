@@ -11,9 +11,12 @@ tags:
   - 透明图标
 ---
 本博客的圆形图标就是用gimp制作出来的。首先看看作图的最终效果，我这里把我制作的灰太郎的图标贴出来。
-
-![初始图片](/assets/picture/灰太郎1.jpg)
-![结果图片](/assets/picture/灰太郎2.png)
+<table  border="0" cellpadding="0" cellspacing="0" align="center" bordercolor="#000000">
+  <tr>
+    <td vertical-align:middle> ![初始图片](/assets/picture/灰太郎1.jpg) </td>
+    <td vertical-align:middle> ![结果图片](/assets/picture/灰太郎2.png) </td>
+  </tr>
+</table>
 
 * 利用gimp的导出功能将图片转化为png格式。用gimp打开图片，点击【文件=》导出】，将文件命名为以png结尾的名字。之所以转化为png格式，是因为png格式支持ALPHA通道，透明的效果才能显示出来。
 
