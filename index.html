@@ -5,26 +5,23 @@ title: Home
 
 <div class="posts">
 
-  {% for post in site.posts limit:4 %}
-  <div>
-    <p class="excerpt"> 
-      
-        <a href="{{ post.url }}">{{ post.title }} </a>        
-      
-        <span class="post-date" >
-        Posted on {{ post.date | date_to_string }}       
-        </span> 
-      
-    </p>
-    
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
     <div class="excerpt-post">
-      {% if post.description %} 
+      {% if post.description %}
          <p>{{ post.description }}</p>
       {% else %}
         <p>{{ post.content | strip_html | truncatewords: 2 }}</p>
       {% endif %}
-    <p style="text-align:right"><span class="more"><a  href="{{ post.url }}">Read More...</a></span></p>
+      <p style="text-align:right"><span class="more"><a  href="{{ post.url }}">Read More...</a></span></p>
     </div>
+
   </div>
   {% endfor %}
 
@@ -37,13 +34,12 @@ title: Home
     <span class="pagination-item older">Older</span>
   {% endif %}
   {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
+  {% if paginator.page == 2 %}
+    <a class="pagination-item newer" href="/">Newer</a>
+  {% else %}
+    <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
+  {% endif %}
   {% else %}
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
-
