@@ -7,9 +7,9 @@ title: About
     Taste beautiful life and share ingenious technology.
 </p>
 
-* Name:                        CarellkingQu
+* Name:                        CharellkingQu
 * Profression:               Software Developer
 * Marital status:           In love
-* Hobby:                       Reading       
+* Hobby:                       Reading
 
 Thanks for reading!
