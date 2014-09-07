@@ -102,6 +102,9 @@ centos的。我们平常的日常生活是可以用linux替代的；如果你说
 ### 密码管理器（keepass)
 - keepassx (加密方式兼容)
 
+### Latex编辑器
+- Geany IDE
+
 ...待续
 
 想要搜索windows下软件在linux下的替代品，可以使用这个web搜索:
