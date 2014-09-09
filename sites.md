@@ -14,4 +14,5 @@ title: Sites
 * [IT周刊](http://news.ittime.com.cn/)
 * [cnbeta](http://www.cnbeta.com/)
 
-
+## Linux
+* [linux中国](http://linux.cn/)
