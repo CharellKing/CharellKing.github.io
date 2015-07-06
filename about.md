@@ -4,12 +4,10 @@ title: About
 ---
 
 <p class="message">
-    Taste beautiful life and share ingenious technology.
+    做真实的自己
 </p>
 
-* Name:                        CharellkingQu
-* Profression:               Software Developer
-* Marital status:           In love
-* Hobby:                       Reading
-
-Thanks for reading!
+* 名称:                       CharellkingQu
+* 职业:                       软件工程师
+* 婚姻:                       单身
+* 爱好:                       读书、音乐
