@@ -1,8 +1,9 @@
 # Dependencies
-# markdown:         redcarpet
-# redcarpet:
-#  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
-markdown:         rdiscount
+markdown:         redcarpet
+redcarpet:
+  extensions: [fenced_code_blocks]
+  render_options:
+# markdown:         rdiscount
 safe:             false
 pygments:         true
 
