@@ -1,0 +1,11 @@
+#!/bin/dot
+
+digraph G {
+        size = "4, 4";
+        "emacs" [shape=box];
+        "emacs" -> "c-mode";
+        "emacs" -> "php-mode";
+        "emacs" -> "...";
+        "emacs" -> "python-mode";
+        "emacs" -> "ruby-mode";
+}
